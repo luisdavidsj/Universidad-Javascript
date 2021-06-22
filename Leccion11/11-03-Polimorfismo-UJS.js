@@ -19,7 +19,7 @@ class Gerente extends Empleado{
         return `Gerente: ${super.obtenerDetalles()} depto: ${this.departamento}`;
     }
 }
-
+//Esta funcion ejecuta polimorfismo; ya que el tipo puede ser un objeto u otro y ambos o cualquiera manda a llamar el mismo metodo pero con diferente funcionalidad
 function imprimir(tipo){
     console.log( tipo.obtenerDetalles() );
 }
