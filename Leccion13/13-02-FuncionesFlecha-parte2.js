@@ -18,7 +18,7 @@ const saludar = () => 'Saludos desde función flecha';
 
 console.log( saludar() );
 
-const regresaObjeto = () => ({nombre: 'Juan', apellido: 'Lara'});
+const regresaObjeto = () => ({nombre: 'Juan', apellido: 'Lara'});//Se tiene que poner entre PARENTESIS para que no lo tome como cuerpo de la funcion
 console.log( regresaObjeto());
 
 const funcionConParametrosClasico = function(mensaje){
@@ -26,7 +26,7 @@ const funcionConParametrosClasico = function(mensaje){
 }
 
 //const funcionConParametros = (mensaje) => console.log( mensaje );
-const funcionConParametros = mensaje => console.log( mensaje );
+const funcionConParametros = mensaje => console.log( mensaje );//Si solo recibe un parametro podemos omitir los parentesis
 funcionConParametros('saludos con parametros');
 
 
