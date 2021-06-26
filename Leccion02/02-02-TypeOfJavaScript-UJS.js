@@ -15,9 +15,9 @@ var numero = 1000;
 console.log(numero);
 
 //Tipo de dato object
-var objecto = {
+var objeto = {
     nombre : "Juan",
     apellido : "Perez",
     telefono : "55443322"
 }
-console.log(typeof objecto);
+console.log(typeof objeto);
